@@ -7,7 +7,7 @@ Flight::route("/",function (){
 });
 
 Flight::route("GET /test",function (){
-    echo "hello from /route";
+    echo "hello from /test";
 });
 
 Flight::start();
