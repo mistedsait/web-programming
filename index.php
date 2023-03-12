@@ -1,5 +1,11 @@
 <?php
 
-echo 'Hello from index';
+require "vendor/autoload.php";
+
+Flight::route("/",function (){
+    echo "hello from /route";
+});
+
+Flight::start();
 
 ?>
